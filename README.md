@@ -5,16 +5,16 @@
 
 Check out the Github repository: [Main MTA Repository](https://github.com/lkaixian/malaysian-trash-annotation)
 
---- Acknowledgement ---
+### --- Acknowledgement ---
 
 We thank all contributors for their support in data collection and annotation:
 Daniel Looi Jun Jie, Darren Lau, Ice019, Ken, Kevin Tan, Kevin Tan Feng Sheng, Lim Li Hong, Nazzy, Ng Lee Pink, Tey KY, Trash, cyarah >~<
 
---- Introduction ---
+### --- Introduction ---
 
 Malaysian Trash Annotation or *MTA* in short is a localised instance segmentation dataset designed to address the current issue of waste segregation in Southeast Asia context. Compare with other openly-sourced dataset, *MTA* is heavily designed around real-world situation where it provides polygon masking to capture the exact geometry of the trash.
 
---- Publication ---
+### --- Publication ---
 
 If you use our dataset, please cite us using:
 > @dataset{mta2026,
@@ -25,11 +25,11 @@ If you use our dataset, please cite us using:
   url = {https://github.com/lkaixian/malaysian-trash-annotation}
 }
 
---- Goal ---
+### --- Goal ---
 
 To develop a high-accuracy waste segmentation model that can precisely localize objects with mainly account for real-world Malaysian environments.
 
---- Dataset's Version: Build 20260418 ---
+### --- Dataset's Version: Build 20260418 ---
 
 * Classes: 14 (Material-based separation)
 * Environment: Supermarkets (clean and ideal condition), Roadside (weathered), Food Courts (occluded/deformed).
@@ -43,7 +43,7 @@ Note 1:
 Note 2: 
 > Partial reference are taken from [Singapore National Environment Agency guideline](https://www.nea.gov.sg/docs/default-source/our-services/waste-management/list-of-items-that-are-recyclable-and-not.pdf) and from [Solid Waste Management and Public Cleansing Corperation (SWCorp) Malaysia](https://www.swcorp.gov.my/asingkan/)
 
---- Annotation Strategy ---
+### --- Annotation Strategy ---
 
 The dataset is currently structured for material-based detection (Phase 1), as below:
 ![SOP-Build-20260418](https://raw.githubusercontent.com/lkaixian/malaysian-trash-annotation/refs/heads/main/Recyclable%20Material-2026-04-19-082829.png)
@@ -55,7 +55,8 @@ Contamination detection
 
 This modular approach aligns with practical waste classification systems.
 
---- Taxonomy of dataset ---
+### --- Taxonomy of dataset ---
+
 m-* (Main Category)
 m-composite , refer to such trash has composite material with it 
 m-glass , refer to such trash is mainly made out of glass
@@ -74,20 +75,23 @@ s-other , refer to such trash can't be categorized or too little to become its o
 s-textile , refer to such trash is made out of textile
 s-cigarette-butt , refer to such trash is cigarette butt
 
---- Devices ---
+### --- Devices ---
+
 * Oppo Reno 14 MY Version (OppoReno14)
 * Samsung Note 10 MY Version (SamsungNote10)
 * Iphone 11 MY Version (Iphone11)
 * Honor 200 MY Version (Honor200)
 * Realme 5s MY Version (Realme5s)
 
---- References ---
+### --- References ---
+
 Singapore National Environment Agency (NEA):
 https://www.nea.gov.sg/docs/default-source/our-services/waste-management/list-of-items-that-are-recyclable-and-not.pdf
 SWCorp Malaysia:
 https://www.swcorp.gov.my/asingkan/
 
---- Legal & Disclaimer ---
+### --- Legal & Disclaimer ---
+
 This dataset contains real-world images of public environments. Any trademarks, logos, or brand names visible on objects (e.g., packaging, bottles) are the property of their respective owners.
 
 Such elements are captured incidentally as part of natural scenes and are included solely for research, educational, and computer vision development purposes. The authors do not claim ownership of any third-party trademarks, nor does their inclusion imply any affiliation with or endorsement by the respective rights holders.
@@ -95,6 +99,7 @@ Such elements are captured incidentally as part of natural scenes and are includ
 The dataset is provided “as is” without warranties, and the authors are not responsible for any misuse of the data.
 
 Notes: 
+
 * Reflections: Contains samples on glass/steel tables; polygons are tightly cropped to the object, excluding ghost reflections.
 * Deformation: Includes crushed cans and flattened bottles to simulate end-of-life object states.
 * Localization: Features "Ikat Tepi" and "Keropok" wrappers specific to the Malaysian region.
