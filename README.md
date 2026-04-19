@@ -58,22 +58,22 @@ This modular approach aligns with practical waste classification systems.
 ### --- Taxonomy of dataset ---
 
 m-* (Main Category)
-m-composite , refer to such trash has composite material with it 
-m-glass , refer to such trash is mainly made out of glass
-m-metal , refer to such trash is mainly made out of metal
-m-paper , refer to such trash is mainly made out of paper
-m-plastic-film , refer to such trash is mainly made out of soft plastic
-m-plastic-rigid , refer to such trash is mainly made out of hard plastic 
+- m-composite , refer to such trash has composite material with it 
+- m-glass , refer to such trash is mainly made out of glass
+- m-metal , refer to such trash is mainly made out of metal
+- m-paper , refer to such trash is mainly made out of paper
+- m-plastic-film , refer to such trash is mainly made out of soft plastic
+- m-plastic-rigid , refer to such trash is mainly made out of hard plastic 
 
 s-* (Special Category)
-s-e-waste , refer to such trash is e-waste
-s-hazardous , refer to such trash is e-waste
-s-ikat-tepi , refer to such trash is ikat tepi
-s-litter , refer to such trash is common trash and can't be recycle whatsoever
-s-organic , refer to such trash is organic waste
-s-other , refer to such trash can't be categorized or too little to become its own class
-s-textile , refer to such trash is made out of textile
-s-cigarette-butt , refer to such trash is cigarette butt
+- s-e-waste , refer to such trash is e-waste
+- s-hazardous , refer to such trash is e-waste
+- s-ikat-tepi , refer to such trash is ikat tepi
+- s-litter , refer to such trash is common trash and can't be recycle whatsoever
+- s-organic , refer to such trash is organic waste
+- s-other , refer to such trash can't be categorized or too little to become its own class
+- s-textile , refer to such trash is made out of textile
+- s-cigarette-butt , refer to such trash is cigarette butt
 
 ### --- Devices ---
 
