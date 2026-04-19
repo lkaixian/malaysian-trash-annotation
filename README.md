@@ -6,13 +6,16 @@
 Check out the Github repository: [Main MTA Repository](https://github.com/lkaixian/malaysian-trash-annotation)
 
 --- Acknowledgement ---
+
 We thank all contributors for their support in data collection and annotation:
 Daniel Looi Jun Jie, Darren Lau, Ice019, Ken, Kevin Tan, Kevin Tan Feng Sheng, Lim Li Hong, Nazzy, Ng Lee Pink, Tey KY, Trash, cyarah >~<
 
 --- Introduction ---
+
 Malaysian Trash Annotation or *MTA* in short is a localised instance segmentation dataset designed to address the current issue of waste segregation in Southeast Asia context. Compare with other openly-sourced dataset, *MTA* is heavily designed around real-world situation where it provides polygon masking to capture the exact geometry of the trash.
 
 --- Publication ---
+
 If you use our dataset, please cite us using:
 > @dataset{mta2026,
   author = {Larm, K. X.},
@@ -23,6 +26,7 @@ If you use our dataset, please cite us using:
 }
 
 --- Goal ---
+
 To develop a high-accuracy waste segmentation model that can precisely localize objects with mainly account for real-world Malaysian environments.
 
 --- Dataset's Version: Build 20260418 ---
